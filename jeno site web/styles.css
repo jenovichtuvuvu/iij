@@ -1,0 +1,100 @@
+/* Réinitialisation des styles par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Styles pour l'en-tête */
+header {
+    background-color: #0000FF;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Styles pour la section des destinations */
+.destinations {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.destinations h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.destination-card {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.destination-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.destination-card h3 {
+    margin: 15px 0;
+    font-size: 1.2em;
+    color: #007BFF;
+}
+
+.destination-card p {
+    padding: 0 15px 15px;
+    font-size: 1em;
+    color: #666;
+}
+
+.destination-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Styles pour le pied de page */
+footer {
+    background-color: #0000FF;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
